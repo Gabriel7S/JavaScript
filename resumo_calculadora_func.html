@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<script>
+function pulaLinha(){document.write("<br><hr><br>");
+
+}
+
+function mostra(frase) {document.write(frase);
+pulaLinha()
+}
+
+function calculadora(fatorUm,fatorDois,produto) {
+return produto=(fatorUm*fatorDois);
+}
+
+var nome=prompt ("informe seu nome");
+var fatorUmInformado=prompt ( nome + ", informe o fatorUm");
+var fatorDoisInformado=prompt ( nome + ", informe o fatorDois");
+
+var resultado= calculadora (fatorUmInformado,fatorDoisInformado);
+document.write(nome + ", o resultado da multiplicação é: " + resultado);
+</script>
